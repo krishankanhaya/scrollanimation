@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(247, 100, 63);
+    overflow: scroll;
+}
+.content{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 2000px;
+    background-color: black;
+}
+
+
+.first{
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 190px;
+    width: 760px;
+    height: 300px;
+    background-color: rgb(194, 199, 204);
+    
+}
+.heading{
+    position: absolute;
+    margin: 20px 10px 0px 20px;
+    padding: 2px 0px 0px 0px;
+    width: 340px;
+    height: 30px;
+    background-color: rgb(235, 239, 241);
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    vertical-align: bottom;
+    color: rgb(46, 47, 48);
+}
+.heading2{
+    position: absolute;
+    margin: 20px 10px 0px 300px;
+    width: 20px;
+    height: 30px;
+    background-color: rgb(240, 25, 25);
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Anton', sans-serif;
+}
+.heading3{
+    position: absolute;
+    margin: 20px 10px 0px 320px;
+    padding: 2px 0px 0px 0px;
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Anton', sans-serif;
+    background-color: rgb(42, 10, 221);
+}
+.heading4{
+    position: absolute;
+    margin: 20px 10px 0px 340px;
+    padding: 2px 0px 0px 0px;
+    width: 20px;
+    height: 30px;
+    background-color: rgb(255, 255, 0);
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Anton', sans-serif;
+}
+.text{
+    position: absolute;
+    margin: 70px 10px 20px 20px;
+    padding: 10px 20px;
+    width: 340px;
+    height: 210px;
+    background-color: rgb(235, 239, 241);
+    text-align: justify;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.image{
+    position: absolute;
+    margin: 20px 20px 20px 390px;
+    width: 340px;
+    height: 260px;
+    background-color: rgb(235, 239, 241);
+    
+
+}
+
+.rc{
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    width: 100%;
+    opacity: .7;
+}
+.yc{
+    position: absolute;
+    top: 60px;
+    left: 22px;
+    width: 100%;
+    opacity: .7;
+}
+.bc{
+    position: absolute;
+    top: 60px;
+    left: -52px;
+    width: 100%;
+    opacity: .7;
+}
+#img2,#img3,#img4{
+    display: none;
+}
+
